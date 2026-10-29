@@ -1,0 +1,73 @@
+{
+  "corpus_files_md": 360,
+  "corpus_bytes": 1315740,
+  "naive_cold_ms": 559.5,
+  "naive_runs_ms": [
+    559.5,
+    573.1,
+    605.1,
+    517.8,
+    558.1
+  ],
+  "naive_rows": 240,
+  "single_pass_cold_ms": 306.6,
+  "single_pass_runs_ms": [
+    306.6,
+    647.1,
+    339.7,
+    275.8,
+    259.6
+  ],
+  "single_pass_rows": 240,
+  "swr_cold_ms": 357.2,
+  "swr_cold_runs_ms": [
+    343.6,
+    357.2,
+    366.3
+  ],
+  "swr_cold_files_read": 240,
+  "swr_cold_files_reused": 0,
+  "swr_memory_hit_us": 0.5,
+  "swr_memory_hit_p99_us": 3.5,
+  "swr_incremental_refresh_ms": 25.5,
+  "swr_incremental_files_read": 1,
+  "swr_incremental_files_reused": 239,
+  "state_distribution": {
+    "pending": 120,
+    "ready": 60,
+    "outdated": 60
+  },
+  "speedup_naive_vs_single": 1.82,
+  "speedup_naive_vs_swr_cold": 1.57,
+  "speedup_naive_vs_memory_hit": 1119070.0,
+  "speedup_single_vs_incremental": 12.03,
+  "latency_projection": [
+    {
+      "per_read_ms": 5.0,
+      "incremental_files_read": 1,
+      "incremental_files_reused": 239,
+      "naive_ms": 6890.1,
+      "single_pass_ms": 3635.6,
+      "swr_cold_ms": 3413.7,
+      "swr_incremental_1file_ms": 49.3
+    },
+    {
+      "per_read_ms": 10.0,
+      "incremental_files_read": 1,
+      "incremental_files_reused": 239,
+      "naive_ms": 10499.3,
+      "single_pass_ms": 4213.4,
+      "swr_cold_ms": 4532.9,
+      "swr_incremental_1file_ms": 38.1
+    },
+    {
+      "per_read_ms": 20.0,
+      "incremental_files_read": 1,
+      "incremental_files_reused": 239,
+      "naive_ms": 18498.7,
+      "single_pass_ms": 8613.2,
+      "swr_cold_ms": 8074.7,
+      "swr_incremental_1file_ms": 55.0
+    }
+  ]
+}

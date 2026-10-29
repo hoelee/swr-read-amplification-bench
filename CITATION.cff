@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this harness or its results, cite the report below."
+type: report
+title: "Moving a 504 Out of the System: Read Amplification, Timeout Budget Inversion, and a Stale-While-Revalidate Status Engine"
+version: "1.3"
+date-released: 2026-10-30
+license: CC-BY-4.0
+url: "https://doc.hoelee.com/whitepaper-504-read-amplification-swr-en.html"
+repository-code: "https://github.com/hoelee/swr-read-amplification-bench"
+keywords:
+  - read amplification
+  - stale-while-revalidate
+  - single-flight
+  - cache stampede
+  - timeout budget
+  - reverse proxy
+  - network file system
+  - performance engineering
+  - benchmark reproducibility
+authors:
+  - family-names: Lee
+    given-names: Teong Hoe
+    affiliation: "Hoelee Enterprise"
+preferred-citation:
+  type: report
+  title: "Moving a 504 Out of the System: Read Amplification, Timeout Budget Inversion, and a Stale-While-Revalidate Status Engine"
+  year: 2026
+  month: 10
+  authors:
+    - family-names: Lee
+      given-names: Teong Hoe
+      affiliation: "Hoelee Enterprise"
