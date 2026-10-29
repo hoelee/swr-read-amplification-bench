@@ -101,7 +101,7 @@ is why the report quotes medians, ranges and a per-session label, never a bare n
 
 ## The report
 
-- **English, 13 pages** — [`paper/whitepaper-504-en-v1.3.pdf`](paper/whitepaper-504-en-v1.3.pdf)
+- **English, 14 pages** — [`paper/whitepaper-504-en-v1.3.pdf`](paper/whitepaper-504-en-v1.3.pdf)
 - **Chinese, 13 pages** — [`paper/whitepaper-504-zh-v1.3.pdf`](paper/whitepaper-504-zh-v1.3.pdf)
 - HTML edition — <https://doc.hoelee.com/whitepaper-504-read-amplification-swr-en.html>
 
